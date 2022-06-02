@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Shopping Cart</title>
+</head>
+<body>
+        <link rel= "stylesheet" href = "cart.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <div class="Cart-Container">
+                    
+                <div class="Header">
+                        <div class="Heading"><h2>Shopping Cart</h2></div>
+                      
+                </div>
+                <hr class="second-hr">
+                <section>
+                    <div class="apply-coupon">
+                    <form action="/action_page.php">
+                        <label for="fname">Have Coupon?</label><br><br>
+                        <input type="text" id="fname" name="fname" value=""><br><br>
+                        <input type="submit" value="Apply">
+                      </form> 
+                    </div>
+                </section>  
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class= "cart-info">
+                            <img src ="G:\Atos\capstone\Red.jpg">
+                                <div>
+                                        <p>Red Printed T-shirt</p>
+                                        <Small>Price: $44.00</Small>
+                                        <br>
+                                        <a href="">Remove</a>
+                                </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                        <td>
+                            <div class= "cart-info">
+                                <img src ="G:\Atos\capstone\Shoes.jpg">
+                                    <div>
+                                            <p>Red Printed T-shirt</p>
+                                            <Small>Price: $44.00</Small>
+                                            <br>
+                                            <a href="">Remove</a>
+                                    </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                            <td>
+                                <div class= "cart-info">
+                                    <img src ="G:\Atos\capstone\t1.jpg">
+                                        <div>
+                                                <p>Red Printed T-shirt</p>
+                                                <Small>Price: $44.00</Small>
+                                                <br>
+                                                <a href="">Remove</a>
+                                        </div>
+                                </div>
+                            </td>
+                            <td><input type="number" value="1"></td>
+                            <td>$50.00</td>
+                        </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Discount</td>
+                        <td>$00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$200.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="proceed">
+                <button type="button" class="btn btn-outline-secondary">Proceed</button>
+               
+            </div> 
+              
+        </div>
+        
+        </div>
+</body>
+</html>

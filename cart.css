@@ -1,0 +1,131 @@
+
+.Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+   }
+   .Heading{
+    font-size: 20px;
+    font-family: ‘Arial’;
+    font-weight: 700;
+    color: #2F3841;
+    text-align: left;
+    
+   }
+   .Action{
+    font-size: 14px;
+    font-family: ‘Open Sans’;
+    font-weight: 600;
+    color: #ff523b;
+    cursor: pointer;
+    border-bottom: 1px solid #ff523b;
+   }
+   .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.40rem
+    }
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .Cart-Container{
+    width: 80%;
+    height: 97%;
+    float: right;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+    
+   }
+.cart-page{
+    margin:  6px auto;
+    width: 100%;
+}
+.table{
+   
+    width:50%;
+	border-collpase: collapse;
+   
+}
+.cart-info{
+	display: flex;
+    flex-wrap: wrap;
+    
+}
+th{
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	background: #ff523b;
+    font-weight: normal;
+    width: 70%;
+}
+td
+{
+	padding: 10px 5px;
+	background: #ffffff;
+}
+td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+td a{
+	color:#ff523b;
+    font-size: 12px;
+    
+}
+td img
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}
+.total-price{
+    display: flex;
+   
+}
+.total-price table{
+   /* border: 3px solid #ff523b;*/
+    width: 300px;
+    max-width: 350px;
+    margin-left: 36%;
+    margin-top: 1px;
+    border-top:3px solid #ff523b;
+
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.proceed {
+    margin-left: 80%;
+    
+  }
+  .apply-coupon{
+  background-color:whitesmoke;
+  width: 250px;
+  border: 3px solid #ff523b;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: right;
+  float:right;
+  margin-right: 50px;
+  font-family: ‘Open Sans’;
+  margin-left: 10%;
+}
